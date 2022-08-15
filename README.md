@@ -400,25 +400,3 @@ Marks will be deducted for poor git and GitLab usage. For example, meaningless c
 [maze]:          examples/maze.png
 [boulders]:      examples/boulders.png
 [advanced]:      examples/advanced.png
-
-## Logs of work completed per partner
-
-### Week-05
-
-Fill in here.
-
-### Week-06
-
-Fill in here.
-
-### Week-07
-
-Fill in here.
-
-### Week-08
-
-Fill in here.
-
-### Week-09
-
-Fill in here.
