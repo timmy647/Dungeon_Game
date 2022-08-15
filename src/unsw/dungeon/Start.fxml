@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unsw.dungeon.MenuController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" style="-fx-background-color: black;" VBox.vgrow="ALWAYS">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="640.0">
+               <image>
+                  <Image url="@/resources/images/background.png" />
+               </image>
+            </ImageView>
+            <Text fill="#f80000" layoutX="170.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dungeon" textAlignment="CENTER">
+               <font>
+                  <Font size="70.0" />
+               </font>
+            </Text>
+            <Button fx:id="Start" alignment="CENTER" layoutX="295.0" layoutY="264.0" mnemonicParsing="false" onAction="#handleStart" text="Start" textAlignment="CENTER" />
+            <Button alignment="CENTER" layoutX="295.0" layoutY="300.0" mnemonicParsing="false" onAction="#showInstructions" text="Help" textAlignment="CENTER" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
